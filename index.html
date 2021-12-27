@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="main">
+    <div class="main-first">
+        <h3>Ссылки</h3>
+        <a href="https://www.google.com">Здесь используется псевдокласс :link</a>
+        <a href="https://theuselessweb.com">Здесь используется псевдокласс :visited</a>
+        <a href="https://www.youtube.com">При наведении на каждую ссылку в действие прийдёт псевдокласс :hover</a>
+        <h3>Input-ы</h3>
+        <p>При нажатии на каждую ячейку цвет поменяется</p>
+        <input type="text" class="purple-input text" value="Фиолетовый цвет">
+        <input type="text" class="green-input text" value="Зелёный цвет">
+        <h3>-Child</h3>
+        <p>В данных списках каждая строчка окрашена разным цветом с помощью псевдоклассов</p>
+        <ul>
+            <li>:first-child</li>
+            <li>:last-child</li>
+        </ul>
+        <ul>
+            <li class="only">Здесь используется псевдокласс :only-child</li>
+        </ul>
+        <h3>ntn & not()</h3>
+        <table>
+            <tr>
+                <td>Первая неокрашенная строчка</td>
+            </tr>
+            <tr>
+                <td>Вторая окрашенная строчка</td>
+            </tr>
+            <tr>
+                <td>Третья окрашенная строчка</td>
+            </tr>
+        </table>
+        <span>Этот текст окрашен из-за псевдокласса :not()</span>
+        <span class="spcolored">Этот текст не окрашен</span>
+        <h3>-of-type</h3>
+        <p>Псевдоклассы аналогичные -child</p>
+        <ul>
+            <li class="type">Это first-of-type </li>
+            <li class="type">Это last-of-type</li>
+        </ul>
+        <h3>:before & :after</h3>
+        <p>Псевдоклассы позволяющие размещать что-то до и после объекта</p>
+        <p class="p-text">Небольшой текстик</p>
+    </div>
+</div>
+</body>
+</html>
